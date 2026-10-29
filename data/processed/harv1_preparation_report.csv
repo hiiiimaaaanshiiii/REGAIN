@@ -1,0 +1,16 @@
+dataset,check,result,details
+Fig1b,Rows read,1204,
+Fig1b,Parsed numeric pairs,1200,
+Fig1b,Unparsed rows,4,Inspect raw_value before deciding whether rows are headers or data.
+Fig1c,Rows,3683,
+Fig1c,Missing values,CHECK,"{'t(s)': 2, 'V(V)': 2, 'I(uA)': 583, 'E(mj)': 583}"
+Fig1c,Current at +/-200 uA,105,Potential measurement limit; verify against paper and instrument metadata.
+Fig1c,Time monotonic,False,
+Fig1c,Duplicate timestamps,1991,
+Fig2,Rows,23,
+Fig2,Columns,"['DT1', 'T1min', 'DT2', 'T2min', 'V', 'E']",
+Fig2,Missing values,CHECK,"{'DT1': 0, 'T1min': 0, 'DT2': 0, 'T2min': 0, 'V': 0, 'E': 0}"
+fig3a,Rows,85,
+fig3a,First rows,REVIEW,"[{0: '#DT', 1: 'eta(%)'}, {0: 'Ti = 5.000000', 1: nan}, {0: 25, 1: 0.927771}, {0: 30, 1: 1.052274}, {0: 35, 1: 1.05923}]"
+fig3b,Rows,85,
+fig3b,First rows,REVIEW,"[{0: '#DT', 1: 'eta_r(%)'}, {0: 'Ti = 5.000000', 1: nan}, {0: 25, 1: 11.250148}, {0: 30, 1: 10.808612}, {0: 35, 1: 9.477082}]"

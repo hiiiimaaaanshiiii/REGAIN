@@ -1,0 +1,4 @@
+file,relative_path,size_bytes,extension,sheets,status,error
+HARV1_SourceData_Fig1.xlsx,HARV1_SourceData_Fig1.xlsx,121160,.xlsx,"[""Fig1b"", ""Fig1c""]",readable,
+HARV1_SourceData_Fig2.csv,HARV1_SourceData_Fig2.csv,1341,.csv,[null],readable,
+HARV1_SourceData_Fig3.xlsx,HARV1_SourceData_Fig3.xlsx,13279,.xlsx,"[""fig3a"", ""fig3b""]",readable,

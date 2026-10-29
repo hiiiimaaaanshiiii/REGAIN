@@ -1,0 +1,4 @@
+group,start_row,end_row,rows,start_time,end_time,pattern
+1,0,3099,3100,0.0,83.9,False|False|False|False
+2,3100,3101,2,,,True|True|True|True
+3,3102,3682,581,0.0,116.00529,False|False|True|True
